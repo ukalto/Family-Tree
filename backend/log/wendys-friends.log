@@ -1,0 +1,150 @@
+2022-10-14 21:36:29.382  INFO 15300 --- [main] a.a.t.s.a.i.persistence.OwnerDaoTest     : Starting OwnerDaoTest using Java 17.0.2 on DESKTOP-5UGAM9M with PID 15300 (started by maxig in C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend)
+2022-10-14 21:36:29.385 DEBUG 15300 --- [main] a.a.t.s.a.i.persistence.OwnerDaoTest     : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 21:36:29.386  INFO 15300 --- [main] a.a.t.s.a.i.persistence.OwnerDaoTest     : The following 2 profiles are active: "test", "datagen"
+2022-10-14 21:36:30.829  INFO 15300 --- [main] a.a.t.s.a.i.p.DataGeneratorBean          : Generating data…
+2022-10-14 21:36:30.831  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-14 21:36:31.164  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-14 21:36:31.185  INFO 15300 --- [main] a.a.t.s.a.i.p.DataGeneratorBean          : Finished generating data without error.
+2022-10-14 21:36:31.985  INFO 15300 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-10-14 21:36:32.329  INFO 15300 --- [main] a.a.t.s.a.i.persistence.OwnerDaoTest     : Started OwnerDaoTest in 3.571 seconds (JVM running for 4.732)
+2022-10-14 21:36:33.123  INFO 15300 --- [main] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners which their name come closest to this a
+2022-10-14 21:36:33.173  INFO 15300 --- [main] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners which their name come closest to this lev
+2022-10-14 21:36:33.184  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [at.ac.tuwien.sepm.assignment.individual.rest.HorseEndpointTest], using SpringBootContextLoader
+2022-10-14 21:36:33.185  INFO 15300 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [at.ac.tuwien.sepm.assignment.individual.rest.HorseEndpointTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-14 21:36:33.185  INFO 15300 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [at.ac.tuwien.sepm.assignment.individual.rest.HorseEndpointTest]: HorseEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-14 21:36:33.220  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplication for test class at.ac.tuwien.sepm.assignment.individual.rest.HorseEndpointTest
+2022-10-14 21:36:33.223  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-14 21:36:33.224  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c5c7cc4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c27e700, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@56b9d43f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d913116, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1214d23c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@41582899, org.springframework.test.context.transaction.TransactionalTestExecutionListener@595814a1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7de5871d, org.springframework.test.context.event.EventPublishingTestExecutionListener@49d42faf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4948daec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@502c2278, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1209a0f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@696174d3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@66715ca9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@577f9dfd]
+2022-10-14 21:36:33.269  INFO 15300 --- [main] a.a.t.s.a.i.rest.HorseEndpointTest       : Starting HorseEndpointTest using Java 17.0.2 on DESKTOP-5UGAM9M with PID 15300 (started by maxig in C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend)
+2022-10-14 21:36:33.270 DEBUG 15300 --- [main] a.a.t.s.a.i.rest.HorseEndpointTest       : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 21:36:33.270  INFO 15300 --- [main] a.a.t.s.a.i.rest.HorseEndpointTest       : The following 2 profiles are active: "test", "datagen"
+2022-10-14 21:36:33.586  INFO 15300 --- [main] a.a.t.s.a.i.p.DataGeneratorBean          : Generating data…
+2022-10-14 21:36:33.587  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-10-14 21:36:33.595  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-10-14 21:36:33.603  INFO 15300 --- [main] a.a.t.s.a.i.p.DataGeneratorBean          : Finished generating data without error.
+2022-10-14 21:36:33.931  INFO 15300 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-10-14 21:36:34.014  INFO 15300 --- [main] a.a.t.s.a.i.rest.HorseEndpointTest       : Started HorseEndpointTest in 0.787 seconds (JVM running for 6.418)
+2022-10-14 21:36:34.026  INFO 15300 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-10-14 21:36:34.027  INFO 15300 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-10-14 21:36:34.027  INFO 15300 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-10-14 21:36:34.055  WARN 15300 --- [main] o.s.web.servlet.PageNotFound             : No mapping for GET /asdf123
+2022-10-14 21:36:34.064  INFO 15300 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-10-14 21:36:34.064  INFO 15300 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-10-14 21:36:34.065  INFO 15300 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-10-14 21:36:34.093  INFO 15300 --- [main] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:36:34.343  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplicationTests], using SpringBootContextLoader
+2022-10-14 21:36:34.344  INFO 15300 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-14 21:36:34.344  INFO 15300 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplicationTests]: SepmIndividualAssignmentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-14 21:36:34.350  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplication for test class at.ac.tuwien.sepm.assignment.individual.SepmIndividualAssignmentApplicationTests
+2022-10-14 21:36:34.353  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-14 21:36:34.354  INFO 15300 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6cd66f6a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d512c1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@578b2dec, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@66863941, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@39f4a7c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@111fe921, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ff542a3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48ee3c2d, org.springframework.test.context.event.EventPublishingTestExecutionListener@54387873, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a80c534, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@fd5689d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@36e3321e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@218f2f51, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d9af731, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@39afe59f]
+2022-10-14 21:36:34.392  INFO 15300 --- [main] SepmIndividualAssignmentApplicationTests : Starting SepmIndividualAssignmentApplicationTests using Java 17.0.2 on DESKTOP-5UGAM9M with PID 15300 (started by maxig in C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend)
+2022-10-14 21:36:34.392 DEBUG 15300 --- [main] SepmIndividualAssignmentApplicationTests : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 21:36:34.392  INFO 15300 --- [main] SepmIndividualAssignmentApplicationTests : The following 1 profile is active: "test"
+2022-10-14 21:36:34.881  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-10-14 21:36:34.889  INFO 15300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-10-14 21:36:34.889  INFO 15300 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-10-14 21:36:35.066  INFO 15300 --- [main] SepmIndividualAssignmentApplicationTests : Started SepmIndividualAssignmentApplicationTests in 0.709 seconds (JVM running for 7.469)
+2022-10-14 21:36:35.083  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-14 21:36:35.086  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-14 21:36:35.088  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-10-14 21:36:35.090  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-10-14 21:36:35.091  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-10-14 21:36:35.093  INFO 15300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-10-14 21:38:03.326  INFO 15040 --- [main] .a.i.SepmIndividualAssignmentApplication : Starting SepmIndividualAssignmentApplication using Java 17.0.2 on DESKTOP-5UGAM9M with PID 15040 (C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend\target\classes started by maxig in C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend)
+2022-10-14 21:38:03.329 DEBUG 15040 --- [main] .a.i.SepmIndividualAssignmentApplication : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 21:38:03.330  INFO 15040 --- [main] .a.i.SepmIndividualAssignmentApplication : No active profile set, falling back to 1 default profile: "default"
+2022-10-14 21:38:04.512  INFO 15040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-14 21:38:04.520  INFO 15040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-14 21:38:04.520  INFO 15040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-10-14 21:38:04.590  INFO 15040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-14 21:38:04.591  INFO 15040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2022-10-14 21:38:04.620  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-14 21:38:04.880  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-14 21:38:04.894  INFO 15040 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2022-10-14 21:38:05.676  INFO 15040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-14 21:38:05.703  INFO 15040 --- [main] .a.i.SepmIndividualAssignmentApplication : Started SepmIndividualAssignmentApplication in 2.922 seconds (JVM running for 3.63)
+2022-10-14 21:38:54.523  INFO 15040 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-14 21:38:54.523  INFO 15040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-14 21:38:54.526  INFO 15040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-10-14 21:38:54.600  INFO 15040 --- [http-nio-8080-exec-2] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:39:05.852  INFO 15040 --- [http-nio-8080-exec-1] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:05.858  INFO 15040 --- [http-nio-8080-exec-1] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:07.695  INFO 15040 --- [http-nio-8080-exec-4] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:39:08.690  INFO 15040 --- [http-nio-8080-exec-5] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:08.690  INFO 15040 --- [http-nio-8080-exec-5] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:16.785  INFO 15040 --- [http-nio-8080-exec-3] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:16.786  INFO 15040 --- [http-nio-8080-exec-3] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:22.839  INFO 15040 --- [http-nio-8080-exec-9] a.a.t.s.a.individual.rest.OwnerEndpoint  : POST /owners
+2022-10-14 21:39:22.840  INFO 15040 --- [http-nio-8080-exec-9] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Insert owner at.ac.tuwien.sepm.assignment.individual.entity.Owner@de1a61d
+2022-10-14 21:39:24.100  INFO 15040 --- [http-nio-8080-exec-10] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:24.101  INFO 15040 --- [http-nio-8080-exec-10] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:27.590  INFO 15040 --- [http-nio-8080-exec-7] a.a.t.s.a.individual.rest.OwnerEndpoint  : DELETE /owners/21
+2022-10-14 21:39:27.590  INFO 15040 --- [http-nio-8080-exec-7] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Delete owner with id 21
+2022-10-14 21:39:30.209  INFO 15040 --- [http-nio-8080-exec-2] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:30.210  INFO 15040 --- [http-nio-8080-exec-2] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:32.066  INFO 15040 --- [http-nio-8080-exec-1] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:32.067  INFO 15040 --- [http-nio-8080-exec-1] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:33.414  INFO 15040 --- [http-nio-8080-exec-4] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:39:43.163  INFO 15040 --- [http-nio-8080-exec-3] a.a.t.s.a.individual.rest.HorseEndpoint  : POST /horses
+2022-10-14 21:39:44.119  INFO 15040 --- [http-nio-8080-exec-8] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:39:46.689  INFO 15040 --- [http-nio-8080-exec-9] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses/5
+2022-10-14 21:39:46.704  INFO 15040 --- [http-nio-8080-exec-10] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses/0
+2022-10-14 21:39:46.710  INFO 15040 --- [http-nio-8080-exec-6] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses/0
+2022-10-14 21:39:53.414  INFO 15040 --- [http-nio-8080-exec-7] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 21:39:53.414  INFO 15040 --- [http-nio-8080-exec-7] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 21:39:55.913  INFO 15040 --- [http-nio-8080-exec-2] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:39:59.322  INFO 15040 --- [http-nio-8080-exec-4] a.a.t.s.a.individual.rest.HorseEndpoint  : DELETE /horses/5
+2022-10-14 21:40:22.365  INFO 15040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-14 21:40:22.376  INFO 15040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-14 21:40:58.053  INFO 25680 --- [main] .a.i.SepmIndividualAssignmentApplication : Starting SepmIndividualAssignmentApplication using Java 17.0.2 on DESKTOP-5UGAM9M with PID 25680 (C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend\target\classes started by maxig in C:\Users\maxig\Desktop\Uni\SEPM\52009273\backend)
+2022-10-14 21:40:58.058 DEBUG 25680 --- [main] .a.i.SepmIndividualAssignmentApplication : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 21:40:58.059  INFO 25680 --- [main] .a.i.SepmIndividualAssignmentApplication : No active profile set, falling back to 1 default profile: "default"
+2022-10-14 21:40:59.133  INFO 25680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-14 21:40:59.141  INFO 25680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-14 21:40:59.141  INFO 25680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-10-14 21:40:59.203  INFO 25680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-14 21:40:59.203  INFO 25680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2022-10-14 21:40:59.231  INFO 25680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-14 21:40:59.441  INFO 25680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-14 21:40:59.452  INFO 25680 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2022-10-14 21:40:59.921  INFO 25680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-14 21:40:59.930  INFO 25680 --- [main] .a.i.SepmIndividualAssignmentApplication : Started SepmIndividualAssignmentApplication in 2.357 seconds (JVM running for 3.016)
+2022-10-14 21:41:08.131  INFO 25680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-14 21:41:08.132  INFO 25680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-14 21:41:08.133  INFO 25680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-14 21:41:08.178  INFO 25680 --- [http-nio-8080-exec-1] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 21:41:40.360  INFO 25680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-14 21:41:40.362  INFO 25680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-14 22:03:18.518  INFO 18664 --- [main] .a.i.SepmIndividualAssignmentApplication : Starting SepmIndividualAssignmentApplication using Java 17.0.2 on DESKTOP-5UGAM9M with PID 18664 (C:\Users\maxig\Desktop\Dev\FamiliyTree\backend\target\classes started by maxig in C:\Users\maxig\Desktop\Dev\FamiliyTree\backend)
+2022-10-14 22:03:18.522 DEBUG 18664 --- [main] .a.i.SepmIndividualAssignmentApplication : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-10-14 22:03:18.523  INFO 18664 --- [main] .a.i.SepmIndividualAssignmentApplication : No active profile set, falling back to 1 default profile: "default"
+2022-10-14 22:03:19.568  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-14 22:03:19.576  INFO 18664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-14 22:03:19.576  INFO 18664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-10-14 22:03:19.642  INFO 18664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-14 22:03:19.642  INFO 18664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
+2022-10-14 22:03:19.688  INFO 18664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-14 22:03:19.963  INFO 18664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-14 22:03:19.978  INFO 18664 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./wendydb'
+2022-10-14 22:03:20.569  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-14 22:03:20.581  INFO 18664 --- [main] .a.i.SepmIndividualAssignmentApplication : Started SepmIndividualAssignmentApplication in 2.496 seconds (JVM running for 3.215)
+2022-10-14 22:03:40.080  INFO 18664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-14 22:03:40.080  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-14 22:03:40.081  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-14 22:03:40.131  INFO 18664 --- [http-nio-8080-exec-1] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:03:44.627  INFO 18664 --- [http-nio-8080-exec-2] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 22:03:44.633  INFO 18664 --- [http-nio-8080-exec-2] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 22:03:45.335  INFO 18664 --- [http-nio-8080-exec-3] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:03:46.145  INFO 18664 --- [http-nio-8080-exec-4] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 22:03:46.146  INFO 18664 --- [http-nio-8080-exec-4] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 22:03:47.021  INFO 18664 --- [http-nio-8080-exec-5] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:03:47.671  INFO 18664 --- [http-nio-8080-exec-6] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses/-1
+2022-10-14 22:03:50.534  INFO 18664 --- [http-nio-8080-exec-7] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:03:55.115  INFO 18664 --- [http-nio-8080-exec-8] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses/2
+2022-10-14 22:04:00.684  INFO 18664 --- [http-nio-8080-exec-9] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:04:01.749  INFO 18664 --- [http-nio-8080-exec-10] a.a.t.s.a.individual.rest.OwnerEndpoint  : GET /owners
+2022-10-14 22:04:01.750  INFO 18664 --- [http-nio-8080-exec-10] a.a.t.s.a.i.p.impl.OwnerJbdcDao          : Get all owners
+2022-10-14 22:04:03.677  INFO 18664 --- [http-nio-8080-exec-1] a.a.t.s.a.individual.rest.HorseEndpoint  : GET /horses HorseSearchDtoHelper[name=null, description=null, birthdate=null, sex=null, ownerName=null]
+2022-10-14 22:04:23.804  INFO 18664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-14 22:04:23.815  INFO 18664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
